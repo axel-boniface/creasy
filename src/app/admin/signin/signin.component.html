@@ -1,0 +1,20 @@
+<form [formGroup]="login">
+  <div>  
+    <label for="user">Utilisateur</label>
+    <input
+    formControlName="user"
+      name="user"
+      type="text"
+    />
+  </div>
+  <div>
+    <label for="password">Mot de passe</label>
+    <input
+      formControlName="password"
+      name="password"
+      type="password"
+    />
+  </div>
+  <p *ngIf="error">{{ error }}</p>
+  <button (click)="onLoginClick()">Se connecter</button>
+</form>
