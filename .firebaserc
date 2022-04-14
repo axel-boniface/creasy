@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "creasy-f1abf": {
+      "hosting": {
+        "creasy": [
+          "creasy-f1abf"
+        ]
+      }
+    }
+  }
+}
